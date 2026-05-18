@@ -2,37 +2,5 @@
     {
         "role": "owner",
         "name": "burningmagma"
-    },
-    {
-        "role": "admin",
-        "name": "Theideakid"
-    },
-    {
-        "role": "admin",
-        "name": "YagiGD"
-    },
-    {
-        "role": "dev",
-        "name": "burningmagma"
-    },
-    {
-        "role": "dev",
-        "name": "Theideakid"
-    },
-    {
-        "role": "dev",
-        "name": "YagiGD"
-    },
-    {
-        "role": "helper",
-        "name": "BlazzaGD"
-    },
-    {
-        "role": "helper",
-        "name": "makielement"
-    },
-    {
-        "role": "helper",
-        "name": "Yourcraftig"
     }
 ]

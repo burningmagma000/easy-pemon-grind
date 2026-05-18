@@ -25,7 +25,7 @@ export default {
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
-                            <p v-if="i + 1 <= 225" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-if="i + 1 <= easyPemonCount" class="type-label-lg">#{{ i + 1 }}</p>
                             <p v-else class="type-label-lg">-</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
@@ -99,7 +99,8 @@ export default {
         selected: 0,
         errors: [],
         roleIconMap,
-        store
+        store,
+        easyPemonCount: 247
     }),
     computed: {
         level() {
