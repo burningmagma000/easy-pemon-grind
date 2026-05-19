@@ -52,7 +52,7 @@ export default {
                                     <p>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                                    <a class="type-label-lg" target="_blank" :href="score.link"></a>
                                 </td>
                             </tr>
                         </table>
@@ -63,7 +63,7 @@ export default {
                                     <p>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                                    <a class="type-label-lg" target="_blank" :href="score.link"></a>
                                 </td>
                             </tr>
                         </table>
