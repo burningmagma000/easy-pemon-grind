@@ -52,7 +52,7 @@ export default {
                                     <p>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link"></a>
+                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                             </tr>
                         </table>
@@ -60,10 +60,10 @@ export default {
                         <table class="table" v-if="entry.progressed.length > 0">
                             <tr v-for="score in entry.progressed">
                                 <td class="rank">
-                                    <p>#{{ score.rank }}</p>
+                                    <p></p>
                                 </td>
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link"></a>
+                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                             </tr>
                         </table>
