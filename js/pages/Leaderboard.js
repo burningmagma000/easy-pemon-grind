@@ -49,7 +49,7 @@ export default {
                         <table class="table" style="margin-bottom: 1.5rem;" v-if="entry.verified.length > 0">
                             <tr v-for="score in entry.verified">
                                 <td class="rank">
-                                    <p</p>
+                                    <p>•</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
@@ -60,7 +60,7 @@ export default {
                         <table class="table" v-if="entry.progressed.length > 0">
                             <tr v-for="score in entry.progressed">
                                 <td class="rank">
-                                    <p></p>
+                                    <p>•</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
