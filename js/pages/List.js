@@ -26,7 +26,7 @@ export default {
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
                             <p v-if="i + 1 <= easyPemonCount" class="type-label-lg"></p>
-                            <p v-else class="type-label-lg">-</p>
+                            <p v-else class="type-label-lg">*</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
                             <button @click="selected = i">
