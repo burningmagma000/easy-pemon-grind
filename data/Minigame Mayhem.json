@@ -7,5 +7,9 @@
     "verification": "https://www.youtube.com/watch?v=qrqPaAWs1tg",
     "records": 
     [
+        {
+            "user": "Dragonix23",
+            "hz": 60
+        }
     ]
 }
